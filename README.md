@@ -15,17 +15,15 @@ This data set contains simulated data that mimics customer behavior on the Starb
 
 Not all users receive the same offer, and that is the challenge to solve with this data set.
 
-### Project Motivation <a name="project-motivation"></a>
-I chose this project to understand the success rate of offers being sent and analysis is done through addressing the following questions.
-1. How many customers were provided with a specific offer?
-2. What's the performance level of an offer?
+Your task is to combine transaction, demographic and offer data to determine which demographic groups respond best to which offer type. This data set is a simplified version of the real Starbucks app because the underlying simulator only has one product whereas Starbucks actually sells dozens of products.
 
-### Data Preparation <a name="data-preparation"></a>
-There are three datasets provided and each dataset is cleaned and preprocessed for further analysis. The target features for analysis are offer_success, percent_success.
+Every offer has a validity period before the offer expires. As an example, a BOGO offer might be valid for only 5 days. You'll see in the data set that informational offers have a validity period even though these ads are merely providing information about a product; for example, if an informational offer has 7 days of validity, you can assume the customer is feeling the influence of the offer for 7 days after receiving the advertisement.
 
-1. Portfolio - renaming id column name to offer_id, one-hot encoding of channels and offer_type columns
-2. Profile - profile: renaming id column name to customer_id, replacing age value 118 to nan, creating readable date format in became_member_on column, dropping rows with no gender, income, age data, converting gender values to numeric 0s and 1s, adding start year and start month columns (for further analysis)
-3. Transcript - renaming person column name to customer_id, creating separate columns for amount and offer_id from value col, dropping transaction rows whose customer_id is not in profile:customer_id, converting time in hours to time in days, segregating offer and transaction data, finally dropping duplicates if any
+You'll be given transactional data showing user purchases made on the app including the timestamp of purchase and the amount of money spent on a purchase. This transactional data also has a record for each offer that a user receives as well as a record for when a user actually views the offer. There are also records for when a user completes an offer.
+
+Keep in mind as well that someone using the app might make a purchase through the app without having received an offer or seen an offer.t.
+
+
 
 ### File Descriptions <a name="files"></a>
 There is a notebook available here to showcase work related to the above questions and wrangling process. There are 3 data files used to address the above qustions
