@@ -4,6 +4,7 @@
 2. [Introducing ](#dataset-introduction)
 5. [File Descriptions](#files)
 4. [Results](#results)
+5  [Licensing, Authors, Acknowledgements] (#Acknowledgements)
 
 ### Installation <a name="installation"></a>
 For running this project, the most important library is Python version of Anaconda Distribution. It installs all necessary packages for analysis and building models. 
@@ -31,3 +32,6 @@ There is a notebook available here to showcase work related to the above questio
 
 ## Results<a name="results"></a>
 The main observations of the code are published [here](https://medium.com/@sanaaalghanmi/starbucks-capstone-challenge-9245fbbad9f).
+
+## Licensing, Authors, Acknowledgements <a name="Acknowledgements"></a>
+I would like to thank [Udacity](https://eu.udacity.com/) for this amazing project, and Starbucks for the dataset..
