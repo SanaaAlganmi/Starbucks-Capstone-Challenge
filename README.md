@@ -1,9 +1,7 @@
 # Starbucks-Capstone-Challenge
 ## Table of Contents
 1. [Installation](#installation)
-2. [Introducing a Dataset](#dataset-introduction)
-3. [Project Motivation](#project-motivation)
-4. [Data Preparation](#data-preparation)
+2. [Introducing ](#dataset-introduction)
 5. [File Descriptions](#files)
 4. [Results](#results)
 
